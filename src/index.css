@@ -1,0 +1,25 @@
+*, *::before, *::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+:root {
+  --ph-orange: #FF6154;
+  --ph-orange-hover: #e8544a;
+  --ph-dark: #1a1a2e;
+  --ph-text: #2d3748;
+  --ph-subtle: #718096;
+  --ph-border: #e2e8f0;
+  --ph-bg: #f7fafc;
+  --shadow-sm: 0 1px 3px rgba(0,0,0,0.08), 0 1px 2px rgba(0,0,0,0.05);
+  --shadow-md: 0 4px 12px rgba(0,0,0,0.1), 0 2px 4px rgba(0,0,0,0.05);
+}
+
+body {
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;
+  background: var(--ph-bg);
+  color: var(--ph-text);
+  min-height: 100vh;
+  line-height: 1.5;
+}
