@@ -2,8 +2,8 @@ import { useState, useCallback, useEffect } from 'react'
 import './App.css'
 
 // Vite dev-server proxies these to https://api.producthunt.com/v2/…
-const OAUTH_URL = '/oauth/token'
-const GRAPHQL_URL = '/graphql'
+const OAUTH_URL = 'https://api.producthunt.com/v2/oauth/token'
+const GRAPHQL_URL = 'https://api.producthunt.com/v2/api/graphql'
 
 export const DEFAULT_CLIENT_ID = '_MIZlP5Bu_n3hmjXWZODgCvEeVokVjN3a4EMXUTCXBc'
 export const DEFAULT_CLIENT_SECRET = 'c62u4KtG83ElLQTrExQGH47ffsgNWOetvj01vTSoEyQ'
